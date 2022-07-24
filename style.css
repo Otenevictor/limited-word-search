@@ -1,0 +1,90 @@
+body {
+    background-color: blueviolet;
+}
+
+* {
+    background-color: blueviolet;
+}
+
+#myInput {
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+    color:black;
+    background-color: white;
+}
+
+#myUL {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#myUL li a {
+    border: 1px solid #ddd;
+    margin-top: -1px;
+    background-color: #f6f6f6;
+    padding: 12px;
+    text-decoration: none;
+    Font-size: 18px;
+    color: blueviolet;
+    display: block
+}
+
+#myUL li a.header {
+    background-color: #e2e2e2;
+    color: black;
+    cursor: default;
+}
+
+#myUL li a:hover:not(.header) {
+    background-color: #eee;
+}
+
+.se {
+    width: 50px;
+    height: 50px;
+}
+
+button {
+    background-color: white;
+    color: red;
+}
+
+td, tr{
+    background-color: black;
+}
+
+a{
+    background-color: black;
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    background-color: red;
+    color: aqua;
+}
+
+.abt {
+    background-color: grey;
+    color: white;
+    float: right;
+    margin-top: 50px;
+    padding: 10px 5px 10px 10px;
+    width: 50px;
+    height: 500px;
+}
+
+.pix {
+    float: right;
+}
+
+.ab {
+    text-align: justify;
+    color: white;
+}
